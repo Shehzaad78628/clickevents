@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var fooButton = document.getElementById("foo");
     var barButton = document.getElementById("bar");
     var foobarButton = document.getElementById("foobar");
+    
     var mainTag = document.querySelector("main");
 
     fooButton.addEventListener("click", function() {
